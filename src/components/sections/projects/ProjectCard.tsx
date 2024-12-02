@@ -33,7 +33,7 @@ export function ProjectCard({
                 <LinkButton
                     icon={<Link size={28} weight="bold" />}
                     text="Ver detalhes"
-                    type="target"
+                    type="parent"
                     to={`projects/${id}`}
                 />
             </div>
