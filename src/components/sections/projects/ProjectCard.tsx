@@ -11,7 +11,7 @@ export function ProjectCard({
     img
 }: ProjectCardProps) {
     function handleBigText(text: string) {
-        const maxLength = 64;
+        const maxLength = 62;
         return text.length > maxLength ? text.slice(0, maxLength) + '...' : text;
     }
 
