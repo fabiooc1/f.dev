@@ -35,7 +35,15 @@ export function JourneyItem({
                     </span>
                 </div>
 
-                <p className="text-xl mobile:text-lg">{description}</p>
+                <p className="text-xl mobile:text-lg">
+                    {description.map(str => (
+                        <>
+                        {str}
+                        <br />
+                        <br />
+                        </>
+                    ))}
+                </p>
             </div>
         </motion.div>
     )
