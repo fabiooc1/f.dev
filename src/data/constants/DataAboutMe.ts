@@ -19,7 +19,7 @@ export const DataAboutMe: AboutMeModel[] = [
         },
         title: 'Minha experiência',
         description:
-            'Com mais de 1 ano de experiência em desenvolvimento web, atuo como desenvolvedor fullstack, criando aplicações performáticas e atraentes. No frontend, utilizo React e Next.js, enquanto no backend, trabalho com Spring Boot e Laravel.',
+            'Com mais de 1 ano de experiência em desenvolvimento web, atuo como desenvolvedor fullstack, criando aplicações performáticas e atraentes. No frontend, utilizo React e Next.js, enquanto no backend, trabalho com NestJS e nodejs. No banco de dados, tenho experiência com MySQL e MongoDB. Além disso, estou sempre atualizado com as últimas tendências e tecnologias do mercado.',
     },
     {
         id: 3,

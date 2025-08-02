@@ -21,7 +21,7 @@ export function SocialButtons() {
                 text="Github"
                 icon={<GithubLogo size={28} weight="bold" className='mobile:hidden' />}
                 type='target'
-                to="https://github.com/fabio-c266"
+                to="https://github.com/fabiooc1"
                 elevationAnimation
             />
 

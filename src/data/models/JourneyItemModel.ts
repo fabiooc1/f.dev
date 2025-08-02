@@ -5,5 +5,5 @@ export type JourneyItemModel = {
     roleType: string
     startedIn: string
     endedIn: string
-    description: string
+    description: string[]
 }
