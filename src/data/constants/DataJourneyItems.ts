@@ -4,40 +4,57 @@ export const DataJourneyItems: JourneyItemModel[] = [
     {
         id: 1,
         company: "Dia de Obra",
-        role: "Estágio de Desenvolvimento Web - NextJs | NestJs | PostgreSQL",
+        role: "Desenvolvedor Web Full Stack - Next.js | NestJS | PostgreSQL",
         roleType: "Estágio",
         startedIn: "Maio de 2023",
         endedIn: "Setembro de 2023",
         description: [
-            "Realizei correções de diversos bugs e implementei novas funcionalidades utilizando Next.js no frontend e NestJS no backend. Sendo as principais:",
-            "- Integrei o Facebook Pixel ao sistema para gerar estatísticas no painel do Facebook ADS e automatizei através de um webhook que ao fazer cadastrado a equipe de marketing identificasse e contatasse usuários que acessaram o site e se registraram para usar o teste gratuito de 7 dias.",
-            "- Desenvolvi uma funcionalidade no backend para armazenamento de documentos, possibilitando o registro de arquivos importantes relacionados a cada obra, como contratos e planejamentos.",
-            "- Criei novas páginas na landing page, incluindo tutoriais e uma seção dedicada à venda de e-books e planilhas, com o objetivo de aumentar a visibilidade e o valor agregado do sistema."
+            "Corrigi bugs e implementei novas funcionalidades no sistema, com Next.js no frontend e NestJS no backend. Principais entregas:",
+            "- Facebook Pixel e funil de leads: integrei o Pixel para gerar estatísticas no Facebook Ads e automatizei, via webhook, o aviso à equipe de marketing sempre que um usuário se cadastrava no teste gratuito de 7 dias.",
+            "- Armazenamento de documentos: desenvolvi no backend o registro de arquivos importantes de cada obra, como contratos e planejamentos.",
+            "- Landing page: criei páginas de tutoriais e uma seção de venda de e-books e planilhas para aumentar a visibilidade e o valor agregado do sistema.",
+            "- Qualidade: mais de 50 branches de correção de bugs encontrados na plataforma entregue à equipe."
         ],
     },
     {
         id: 2,
-        company: "Agência de Tecnologia do Estado (ATI)",
-        role: "Estágio de Desenvolvimento Web - HTML | CSS | JavaScript | PHP | MySql/MariaDB",
+        company: "Agência de Tecnologia da Informação do Maranhão (ATI)",
+        role: "Desenvolvedor Web Full Stack - HTML | CSS | JavaScript | PHP | MySQL/MariaDB",
         roleType: "Estágio",
         startedIn: "Setembro de 2023",
         endedIn: "Setembro de 2024",
         description: [
-            "Atuei principalmente como desenvolvedor fullstack, utilizando PHP com MySQL/MariaDB nas seguintes demandas:",
-            "- Desenvolvi uma API de integração com o sistema interno emails da Agência, com o objetivo de facilitar o trabalho do desenvolvedor frontend na criação de formulários para programas das secretarias do Estado do Maranhão.",
-            "- Criei um encurtador de URLs personalizado, otimizando o compartilhamento de links utilizados com frequência pela equipe, desde a fase de planejamento até a produção.",
-            "- Liderei o desenvolvimento fullstack, desde o planejamento até a produção, do projeto 30 Cores em Maio, que permitia aos usuários escanear QR Codes para votar em obras e exibir um ranking das obras mais votadas."
+            "Atuei como desenvolvedor full stack em PHP com MySQL/MariaDB, criando sistemas novos, mantendo os existentes e fazendo o deploy. Principais entregas:",
+            "- Integração com o sistema interno de e-mails: facilitou o trabalho do desenvolvedor frontend na criação de formulários para programas das secretarias do Estado do Maranhão.",
+            "- Encurtador de URLs personalizado: otimizou o compartilhamento dos links mais usados pela equipe, do planejamento à produção.",
+            "- 30 Cores em Maio: liderei o desenvolvimento, do planejamento à produção, de um sistema em que usuários escaneavam QR Codes para votar em obras e viam o ranking das mais votadas."
         ]
     },
     {
         id: 3,
         company: "Secretaria Municipal de Informação e Tecnologia (SEMIT)",
-        role: "Estágio de Desenvolvimento de Sistemas - React | NestJs | PostgreSQL | Nginx",
+        role: "Desenvolvedor Web Full Stack - React | NestJS | PostgreSQL | Nginx",
         roleType: "Estágio",
         startedIn: "Junho de 2025",
+        endedIn: "Dezembro de 2025",
+        description: [
+            "Criei novos sistemas, corrigi bugs, fiz o deploy das aplicações e alinhei a execução dos projetos diretamente com o Superintendente de Tecnologia. Principais entregas:",
+            "- São João de São Luís 2025: site do evento com painel administrativo para a secretaria gerenciar imagens, vídeos e notícias, publicado em produção com Nginx.",
+            "- Aniversário da cidade 2025: site do evento com painel administrativo para gerenciamento completo do conteúdo.",
+            "- Cidadão Seguro: iniciei o desenvolvimento de um sistema de pulseiras com QR Code para identificar crianças e idosos perdidos e localizar seus responsáveis."
+        ]
+    },
+    {
+        id: 4,
+        company: "Empresa Maranhense de Serviços Hospitalares (EMSERH)",
+        role: "Engenheiro de Software - Next.js | NestJS",
+        roleType: "Júnior",
+        startedIn: "Dezembro de 2025",
         endedIn: "O momento",
         description: [
-            "Fui responsável pelo desenvolvimento do site e painel administrativo do São João de São Luís 2025, integrado com uma API para gerenciamento de conteúdos (imagens, vídeos, notícias) e publicação em produção com Nginx."
+            "Levanto requisitos, planejo e executo projetos, automatizo processos manuais, mantenho aplicações e faço o deploy. Principais entregas:",
+            "- Fluxo AJGP: centralizei no portal da diretoria os processos do SEI da Assessoria Jurídica em Gestão de Pessoas, com indicadores sobre os documentos.",
+            "- Gestão de Eficácia: plataforma que mede a qualidade dos treinamentos, comparando o colaborador antes e depois por meio de avaliação do gestor e prova."
         ]
     }
 ]

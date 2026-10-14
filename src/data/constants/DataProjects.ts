@@ -10,7 +10,7 @@ export const DataProjects: ProjectModel[] = [
     {
         id: 1,
         name: 'Feed',
-        description: 'Uma mini rede social interativa que permite aos usuários criar postagens e adicionar comentários, promovendo engajamento e troca de ideias.',
+        description: 'Mini rede social em que os usuários criam postagens e comentam nas publicações de outros, promovendo engajamento e troca de ideias.',
         img: {
             name: 'Feed',
             path: feedImage
@@ -21,7 +21,7 @@ export const DataProjects: ProjectModel[] = [
     {
         id: 2,
         name: 'Tasks Challenge',
-        description: 'Aplicação frontend desenvolvida para um desafio técnico, focada na gestão de tarefas. Inclui funcionalidades como cadastro de nome, preço, data de expiração com integração com banco de dados.',
+        description: 'Frontend desenvolvido para um desafio técnico de gestão de tarefas, com cadastro de nome, preço e data de expiração e integração com uma API.',
         img: {
             name: 'Tasks Challenge',
             path: TasksChallengeImage
@@ -32,7 +32,7 @@ export const DataProjects: ProjectModel[] = [
     {
         id: 3,
         name: 'Ignite Timer',
-        description: 'Ferramenta prática de gerenciamento de tempo, projetada para ajudar na realização de tarefas. Inclui funcionalidades como temporizador personalizável e histórico de sessões.',
+        description: 'Timer de produtividade para focar em tarefas, com temporizador personalizável e histórico de sessões.',
         img: {
             name: 'Ignite Timer',
             path: IgniteTimeImage
@@ -43,7 +43,7 @@ export const DataProjects: ProjectModel[] = [
     {
         id: 4,
         name: 'DT Money',
-        description: 'Aplicação web intuitiva para o gerenciamento de finanças pessoais, permitindo o registro, categorização e análise de receitas e despesas.',
+        description: 'Aplicação web para controle de finanças pessoais, com registro, categorização e análise de receitas e despesas.',
         img: {
             name: 'DT Money',
             path: DTMoneyImage
@@ -54,7 +54,7 @@ export const DataProjects: ProjectModel[] = [
     {
         id: 5,
         name: 'Coffee Delivery',
-        description: 'Mini E-commerce para cafeterias, destacando a exibição de produtos com informações detalhadas e possibilitando a realização de pedidos online de forma prática.',
+        description: 'Mini e-commerce para cafeterias, com catálogo de produtos detalhado e fluxo de pedido online.',
         img: {
             name: 'Coffee Delivery',
             path: CoffeDeliveryImage

@@ -9,7 +9,7 @@ export const DataAboutMe: AboutMeModel[] = [
         },
         title: 'Introdução',
         description:
-            'Estou nessa jornada deis dos meus 16 anos. Hoje, transformo ideias em soluções completas e funcionais',
+            'Estou nessa jornada desde os 16 anos. Hoje, transformo problemas reais em soluções completas, do planejamento da arquitetura ao deploy.',
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ export const DataAboutMe: AboutMeModel[] = [
         },
         title: 'Minha experiência',
         description:
-            'Com mais de 1 ano de experiência em desenvolvimento web, atuo como desenvolvedor fullstack, criando aplicações performáticas e atraentes. No frontend, utilizo React e Next.js, enquanto no backend, trabalho com NestJS e nodejs. No banco de dados, tenho experiência com MySQL e MongoDB. Além disso, estou sempre atualizado com as últimas tendências e tecnologias do mercado.',
+            'Sou Engenheiro de Software com mais de 3 anos de experiência em desenvolvimento web, já passei por uma startup e por órgãos públicos do Maranhão e de São Luís, entregando portais, automações e novas funcionalidades com foco em escalabilidade, segurança e performance. Trabalho com Next.js, React, NestJS, Node.js e TypeScript, e uso PostgreSQL, MySQL, Docker, Git e práticas de CI/CD no dia a dia. Curso Engenharia de Software na UNDB (conclusão em 2027) e sou certificado em CS50x e NGINX.',
     },
     {
         id: 3,
@@ -29,6 +29,6 @@ export const DataAboutMe: AboutMeModel[] = [
         },
         title: 'Objetivos',
         description:
-            'Continuar aprendendo e explorando novas tecnologias e ferramentas, buscando constantemente o aprimoramento profissional para construir uma carreira de sucesso, impactante e repleta de realizações.',
+            'Aprofundar meus conhecimentos em arquitetura de software e DevOps para projetar sistemas escaláveis, seguros e fáceis de manter, e usar a tecnologia para resolver problemas que impactem de verdade a vida das pessoas.',
     },
 ]
