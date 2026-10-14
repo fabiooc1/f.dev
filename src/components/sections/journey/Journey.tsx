@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { MouseEvent, useState } from "react";
 import { DataJourneyItems } from "../../../data/constants/DataJourneyItems";
 import { SectionContainer } from "../SectionContainer";
 import { SectionTitle } from "../SectionTitle";
@@ -11,8 +11,8 @@ export function Journey() {
     const numberOfItemsPerPage = 2;
     const totalPages = Math.ceil(DataJourneyItems.length / numberOfItemsPerPage);
 
-    function handleTogglePage(event: any) {
-        const currentButtonIndex = Number(event.target.value);
+    function handleTogglePage(event: MouseEvent<HTMLButtonElement>) {
+        const currentButtonIndex = Number(event.currentTarget.value);
         setCurrentPageIndex(currentButtonIndex)
     }
 
